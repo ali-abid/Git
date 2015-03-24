@@ -1,0 +1,14 @@
+Use full commands
+
+
+working-directory/.metadata/*
+working-directory/.recommenders/*
+working-directory/DesignPattern/.setting/*
+working-directory/DesignPattern/bin/*
+working-directory/DesignPattern/.classpath
+working-directory/DesignPattern/.project
+
+#give path of useless files
+
+git rm --cached .classpath -r
+
