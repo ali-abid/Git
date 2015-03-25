@@ -22,3 +22,7 @@ What are the basis commands for gitHub?
 
 5) git push origin master.
 
+How to see remote changes in local repository?
+
+1) git pull origin master
+
