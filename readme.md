@@ -12,3 +12,13 @@ How to remove files from git cached?
 
 1) After editing .gitignore file must remove cached e.g. git rm --cached working-directory/DesignPattern/.classpath -r
 
+What are the basis commands for gitHub?
+
+1) git status, 
+
+2) git add file-name or * for all, git rm , 
+
+3) git commit -m "Write your commint here", 
+
+5) git push origin master.
+
