@@ -1,0 +1,21 @@
+Ignore git files
+
+1) Edit .gitignore file
+2) Give complete path of target file
+e.g,
+Give path of target file e.g. working-directory/DesignPattern/.classpath
+Ignore all file in subdirectories e.g. working-directory/.metadata/*
+Ignore all file except one
+e.g, 
+*.py
+!test.py
+
+3) git status
+4) git add .gitignore
+5) Remove GIT cache 
+e.g 
+git rm --cached working-directory/DesignPattern/.classpath -r
+
+6) git commit -m "write commit here"
+
+7) git push
