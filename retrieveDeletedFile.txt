@@ -1,0 +1,8 @@
+
+How to retrieve delete file from local repository?
+e.g  rm fileName 
+
+Now use following command to get back deleted file:
+
+git reset master fileName
+git checkout fileName
